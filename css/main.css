@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.border {
+  border: 3px solid #333;
+  border-radius: 10px;
+}
+
+.card {
+  color: #333;
+  border: 3px solid #333;
+}
+
+.img-flex, .i-64 {
+  width: 100%;
+}
+
+.btn-ghost {
+  border: 3px solid #333;
+  border-radius: 10px;
+  line-height: 1.3rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #e6e6e6;
+}
